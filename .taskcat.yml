@@ -1,5 +1,5 @@
 project:
-  name: quickstart-bim360-integration
+  name: cfn-ps-bim360-integration
   owner: quickstart-eng@amazon.com
   shorten_stack_name: true
   package_lambda: false
@@ -40,7 +40,7 @@ tests:
       PublicSubnet2CIDR: 10.0.144.0/20
       QSS3BucketName: $[taskcat_autobucket]
       QSS3BucketRegion: $[taskcat_current_region]
-      QSS3KeyPrefix: quickstart-bim360-integration/
+      QSS3KeyPrefix: cfn-ps-bim360-integration/
       RemoteAccessCIDR: 10.0.0.0/16
       VPCCIDR: 10.0.0.0/16
     regions:
@@ -72,7 +72,7 @@ tests:
       PublicSubnet2CIDR: 10.0.144.0/20
       QSS3BucketName: $[taskcat_autobucket]
       QSS3BucketRegion: $[taskcat_current_region]
-      QSS3KeyPrefix: quickstart-bim360-integration/
+      QSS3KeyPrefix: cfn-ps-bim360-integration/
       RemoteAccessCIDR: 10.0.0.0/16
       VPCCIDR: 10.0.0.0/16
     regions:
@@ -103,7 +103,7 @@ tests:
       PublicSubnet2CIDR: 10.0.144.0/20
       QSS3BucketName: $[taskcat_autobucket]
       QSS3BucketRegion: $[taskcat_current_region]
-      QSS3KeyPrefix: quickstart-bim360-integration/
+      QSS3KeyPrefix: cfn-ps-bim360-integration/
       RemoteAccessCIDR: 10.0.0.0/16
       VPCCIDR: 10.0.0.0/16
     regions:
